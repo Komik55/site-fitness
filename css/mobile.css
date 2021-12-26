@@ -1,0 +1,148 @@
+@media screen and (max-width:1290px){
+    body{
+        min-width: 500px;
+        max-width: 500px;
+        font-size: 22px;
+        overflow-x: auto;
+    }
+    section{
+        width: 100vw;
+    }
+    .about{
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.benefits__items{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+}
+
+@media screen and (max-width:900px){
+    body{
+        min-width: 500px;
+        max-width: 500px;
+        font-size: 22px;
+        overflow-x: hidden;
+    }
+    section{
+        width: 100vw;
+    }
+    
+   
+    .wrap{
+        max-width: 1000px;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header img{
+        width: 122vw;
+    }
+    .header__logo{
+        margin-left: 12px;
+    }
+    .header__inf{
+        display: none;
+    }
+    .header__location{
+        display: block;
+    }
+    .header__icon{
+        display: block;
+    }
+    .header__icon svg{
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .arrow-l,.arrow-r{
+        display: none;
+    }
+    .about__txt{
+        padding-left: 135px;
+    }
+    .about__text{
+        margin-bottom: 18px;
+    }
+    .main__banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main__banner__title{
+        padding-left: 35px;
+        display: inline-block;
+        text-align: left;
+        max-width: 500px;
+        width: 500px;
+    }
+   
+    .main__banner__inf{
+        max-width: 300vmin;
+        width: 300px;
+    }
+    .main__banner__text{
+        width: 600px;
+        padding-left: 35px;
+    }
+    .benefits__block{
+        padding: 7% 0;
+        height: auto;
+    }
+    .benefits__title{
+        text-align: center;
+    }
+    .benefits__items{
+        flex-wrap: wrap;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+    .benefits__items__title{
+        max-width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+    .benefits__items__coach,
+    .benefits__items__health,
+    .benefits__items__schedule{
+        margin-bottom: 4%;
+    }
+    .benefits__items__text{
+        width: 350px;
+        text-align: center;
+    }
+    .benefits__items__coach__items3{
+        margin-top: 10%;
+    }
+    .benefits__items__title{
+        text-align: center;
+    }
+    .text__address,.text__insta{
+        visibility: hidden;        
+    }
+    .header__location__location{
+        display: none;
+    }
+    .progrmas__block1{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .programs__block1__picture img{
+        text-align: center;
+        display: none;
+    }
+    .programs__block1__txt p{
+        width: auto;
+        padding-right: 20px;
+    }
+    .footer__map img{
+        width: 70vw;
+    }
+}
